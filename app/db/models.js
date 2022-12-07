@@ -8,10 +8,12 @@ const postSchema = new Schema(
       type: String,
       required: true,
       trim: true,
+      maxLength: 100,
     },
     body: {
       type: String,
       required: true,
+      maxLength: 500,
     },
     starredBy: {
       type: Array,
@@ -31,11 +33,13 @@ const userSchema = new Schema({
     required: true,
     trim: true,
     unique: true,
+    maxLength: 50,
   },
   password: {
     type: String,
     required: true,
     trim: true,
+    maxLength: 50,
   },
 });
 
