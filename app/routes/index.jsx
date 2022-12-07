@@ -15,7 +15,7 @@ export default function Index() {
 
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1 className="text-3xl font-bold underline">ALL POSTS: </h1>
+      <h1 className="text-gray-900 font-bold text-3xl mb-2">Your Posts: </h1>
       <PostsList posts={posts}/>
     </div>
   );
