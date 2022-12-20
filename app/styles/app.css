@@ -521,6 +521,11 @@ video {
   margin: 1.5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -559,6 +564,14 @@ video {
 
 .ml-8 {
   margin-left: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .block {
@@ -670,6 +683,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -684,6 +702,10 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .align-baseline {
@@ -759,6 +781,11 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .shadow-md {

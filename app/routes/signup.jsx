@@ -39,8 +39,8 @@ export default function SignUp() {
 
     return(
         <div className="w-full max-w-xs">
-            <h1 className="ml-8 mt-6 text-lg font-bold">SignUp</h1>
             <Form method="post" id="post-form" className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <h1 className="ml-8 mt-6 text-lg font-bold">Sign Up</h1>
                 <div className="mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="username">
                         Username
