@@ -8,8 +8,10 @@ import bcrypt from "bcryptjs"
 export async function action({ request }) {
     const db = connectDb();
     const formData = await request.formData()
+    console.log(formData)
     const user = db.models.User;
     let data = Object.fromEntries(formData);
+    console.log(data)
     if (data.password === "" || data.username === "") {
         return json(
             { errorMessage: "Please fill out all fields", values: data },

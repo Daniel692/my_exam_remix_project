@@ -41,6 +41,10 @@ const userSchema = new Schema({
     trim: true,
     maxLength: 500,
   },
+  avatar: {
+    type: String,
+    default: "https://api.dicebear.com/6.x/bottts/svg",
+  },
 });
 
 export const models = [
